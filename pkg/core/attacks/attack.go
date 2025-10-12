@@ -27,6 +27,12 @@ const (
 	AttackTagBountifulCore // special tag for nilou
 	AttackTagBurgeon
 	AttackTagHyperbloom
+	AttackTagReactionLunarCharge
+
+	DirectLunarReactionStartDelim
+	AttackTagDirectLunarCharged
+	DirectLunarReactionEndDelim
+
 	AttackTagLength
 )
 
