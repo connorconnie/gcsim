@@ -28,6 +28,8 @@ skill_data_mapping:
     - 3 # Frostgrove Sanctuary Attack DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery
     sanctuaryEnhanced:
     - 4 # Frostgrove Sanctuary Attack DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery
+    skillRes:
+    - 7 # Elemental RES Decrease|{param7:F1P}
   burst:
     burstBuff_1:
     - 2 # Bloom, Hyperbloom, and Burgeon DMG Increase|{param2:F1P} Elemental Mastery
