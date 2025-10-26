@@ -20,6 +20,11 @@ func CalcLunarChargedDmg(lvl int, src reactionBonusSrc, atk info.AttackInfo, em 
 	return (1 + ((6 * em) / (2000 + em)) + src.ReactBonus(atk)) * CalcReactionBaseDmg(lvl)
 }
 
+// This is a place holder, may or may not be correct (I don't believe its correct)
+func CalcLunarBloomDmg(lvl int, src reactionBonusSrc, atk info.AttackInfo, em float64) float64 {
+	return (1 + ((6 * em) / (2000 + em)) + src.ReactBonus(atk)) * CalcReactionBaseDmg(lvl)
+}
+
 func CalcReactionDmg(lvl int, src reactionBonusSrc, atk info.AttackInfo, em float64) (float64, info.Snapshot) {
 	snap := info.Snapshot{
 		CharLvl: lvl,

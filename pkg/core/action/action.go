@@ -119,8 +119,9 @@ const (
 	// following action have to implementations
 	ActionSwap
 	ActionWalk
-	ActionWait  // character should stand around and wait
-	ActionDelay // delay before executing next action
+	ActionWait       // character should stand around and wait
+	ActionDelay      // delay before executing next action
+	ActionDeerCharge // Lauma exclusive
 	EndActionType
 	// these are only used for frames purposes and that's why it's after end
 	ActionSkillHoldFramesOnly
@@ -141,6 +142,7 @@ var astr = []string{
 	"walk",
 	"wait",
 	"delay",
+	"deer_charge",
 }
 
 func (a Action) String() string {
@@ -189,6 +191,7 @@ const (
 	JumpState
 	WalkState
 	SwapState
+	DeerChargeAttackState
 )
 
 var statestr = []string{
@@ -203,6 +206,7 @@ var statestr = []string{
 	"jump",
 	"walk",
 	"swap",
+	"deer",
 }
 
 func (a AnimationState) String() string {

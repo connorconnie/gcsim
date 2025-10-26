@@ -32,10 +32,12 @@ const (
 
 	LunarReactionStartDelim
 	AttackTagReactionLunarCharge
+	AttackTagReactionLunarBloom
 	LunarReactionEndDelim
 
 	DirectLunarReactionStartDelim
 	AttackTagDirectLunarCharged
+	AttackTagDirectLunarBloom
 	DirectLunarReactionEndDelim
 
 	AttackTagLength
